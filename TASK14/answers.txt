@@ -1,0 +1,10 @@
+- What is ETL and why needed?
+ETL (Extract, Transform, Load) is the process of pulling raw data, cleaning and reshaping it, then loading it into a target system — needed to make messy data usable and consistent for analysis.
+- ETL vs ELT?
+ETL transforms data before loading into storage, while ELT loads raw data first and performs transformations inside the database or warehouse.
+- How do you validate ETL output?
+By checking row counts, schema consistency, and relational integrity between tables, ensuring no data loss or corruption occurred.
+- Why separate tables in pipeline?
+Splitting into customers, orders, and products makes analysis modular, improves performance, and enforces clear data relationships.
+- Common ETL errors?
+Frequent issues include missing values, datatype mismatches, duplicate records, and incorrect joins or transformations.
